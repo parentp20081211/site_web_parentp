@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+  }
+ 
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+ 
+p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+body {
+  img {
+  opacity: 0.5;
+}
+  background-image: url("#");
+  
+}
+
+

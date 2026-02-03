@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="stylegalerie.css"> <!--On importe le fichier CSS-->
+<title>Galerie - Site Web parentp</title>
+
+<style>
+.button {
+  background-color: #0084ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<a href="index.html" class="button">Accueil</a><a href="plus.html" class="button">Plus</a><a href="galerie.html" class="button">Galerie</a>
+
+<html>
+<head>
+<style>
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+
+<div class="gallery-item">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Cinque Terre</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Green Forest</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Northern Lights</div>
+</div>
+
+<div class="gallery-item">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Mountains</div>
+</div>
+
+<audio autoplay>
+  <source src="snd_badexplosion.wav" type="audio/wav">
+  
+Your browser does not support the audio element.
+</audio>
+</div>
+
+</body>
+</html>
+
